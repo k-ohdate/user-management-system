@@ -40,9 +40,9 @@ const RegisterForm: React.FC = () => {
         新規登録
       </Typography>
       <form action={regist}>
-        <input name="name" />
-        <input name="email" />
-        <input name="role" />
+        <input placeholder="名前" type="text" name="name" />
+        <input placeholder="メール" type="email" name="email" />
+        <input placeholder="役職" type="text" name="role" />
         <button type="submit">登録</button>
       </form>
     </Box>
