@@ -10,6 +10,9 @@ import { Typography, Box } from "@mui/material";
 const RegisterPage: React.FC = () => {
   return (
     <Box sx={{ maxWidth: 400, mx: "auto", mt: 4 }}>
+      <Typography id="title" variant="h5" gutterBottom>
+        新規ユーザー登録
+      </Typography>
       <RegisterForm />
     </Box>
   );
