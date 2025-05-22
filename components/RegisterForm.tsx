@@ -31,7 +31,7 @@ const RegisterForm: React.FC = () => {
     const email = formData.get("email");
     const role = formData.get("role");
 
-    alert(`Rgisting for '${name}'`);
+    alert(`Registing for '${name}'`);
   }
 
   return (
